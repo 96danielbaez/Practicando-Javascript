@@ -13,10 +13,20 @@ console.log(vector);
 
 // Recordar qué con el parametro .length sabremos la capacidad de nuestro vector.
 
-var vector2 = ["Pedro", , "Juan", "Asd"];
+var vector2 = ["Lilo", "Hannah", "Raul", "Molly"];
 console.log(vector2);
 console.log(vector2.length);
 
+// Agrega un elemento al final del vector.
+console.log(vector2.push("Horus"));
+console.log(vector2);
+console.log(vector2.length);
 
+// Elimina el ultimo elemento del vector.
+console.log(vector2.pop());
+console.log(vector2);
 
+//  Agrega un elemento al principio del vector.
+console.log(vector2.unshift("Coquito"));
+console.log(vector2);
 
