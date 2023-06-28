@@ -31,3 +31,14 @@ console.log(separar);
 
 nombre = separar.join("");
 console.log(nombre);
+
+// METODO includes(), every().
+
+// Recorre el vector y compara si incluye el string "d", y devuelve un valor booleano //
+
+console.log(separar);
+console.log(separar.includes("d"));
+
+// Recorrer el vector y compara si todas las posiciones contienen el string "d" y devuelve un valor booleano //
+
+console.log(separar);
